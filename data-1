@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Read the CSV file from the URL into a DataFrame
+url = 'https://gist.githubusercontent.com/mattkram/9684863843254402942dfede27af2cb7/raw/2590dd8185b833aacf247c0595edbb07a025a6d7/Smithsonian_VOTW_Holocene_Volcanoes.csv'
+df = pd.read_csv(url)
+
+# Display the first 10 rows of the DataFrame
+print(df.head(10))
